@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Memory Game</title>
+    <script src="app.js?v=2" defer></script>
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+    <header>
+        <h1>Food Memory Game</h1>
+        <div class="difficulty">
+            <button id="easy" class="active">Easy</button>
+            <button id="hard">Hard</button>
+        </div>
+        <div class="score">Matches: <span id="result">0</span></div>
+    </header>
+
+    <main>
+        <div id="grid"></div>
+    </main>
+
+    <footer>
+        <button id="reset" onclick="window.location.reload()">Play Again</button>
+    </footer>
+</body>
+</html>
